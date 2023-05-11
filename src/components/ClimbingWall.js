@@ -20,7 +20,7 @@ function ClimbingWall(props) {
             to={`/wall/${wall.area_name.replaceAll(',','').replaceAll("'",'').split(' ').join('_').toLowerCase()}`}
             role="link"
             >
-            <h1>{allWalls[wall.area_name.replaceAll(',','').replaceAll("'",'').split(' ').join('_').toLowerCase()].area_name}</h1>
+            <h2>{allWalls[wall.area_name.replaceAll(',','').replaceAll("'",'').split(' ').join('_').toLowerCase()].area_name}</h2>
           </Link>
           <p>Number of routes: {allWalls[wall.area_name.replaceAll(',','').replaceAll("'",'').split(' ').join('_').toLowerCase()].totalClimbs}</p>
         </section>

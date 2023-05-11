@@ -14,7 +14,7 @@ function ClimbingArea(props) {
           role="link"
           aria-label={`Link to details for ${areaName} climbing area`}
         >
-          <h1>{areaName}</h1>
+          <h2>{areaName}</h2>
         </Link>
         <p>
           <span>Number of walls: </span>
