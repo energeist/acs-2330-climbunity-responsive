@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/acs-2330-climbunity-responsive/static/css/main.5d3ea3a9.css",
-    "main.js": "/acs-2330-climbunity-responsive/static/js/main.5bfbdf4d.js",
+    "main.css": "/acs-2330-climbunity-responsive/static/css/main.20d0041c.css",
+    "main.js": "/acs-2330-climbunity-responsive/static/js/main.dc0de1cf.js",
     "static/js/787.ffc5aea5.chunk.js": "/acs-2330-climbunity-responsive/static/js/787.ffc5aea5.chunk.js",
     "static/media/logo-no-background.png": "/acs-2330-climbunity-responsive/static/media/logo-no-background.a1b9e3ba03f496f44b81.png",
     "index.html": "/acs-2330-climbunity-responsive/index.html",
-    "main.5d3ea3a9.css.map": "/acs-2330-climbunity-responsive/static/css/main.5d3ea3a9.css.map",
-    "main.5bfbdf4d.js.map": "/acs-2330-climbunity-responsive/static/js/main.5bfbdf4d.js.map",
+    "main.20d0041c.css.map": "/acs-2330-climbunity-responsive/static/css/main.20d0041c.css.map",
+    "main.dc0de1cf.js.map": "/acs-2330-climbunity-responsive/static/js/main.dc0de1cf.js.map",
     "787.ffc5aea5.chunk.js.map": "/acs-2330-climbunity-responsive/static/js/787.ffc5aea5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d3ea3a9.css",
-    "static/js/main.5bfbdf4d.js"
+    "static/css/main.20d0041c.css",
+    "static/js/main.dc0de1cf.js"
   ]
 }
