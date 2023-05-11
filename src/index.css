@@ -1,0 +1,28 @@
+body {
+  color: rgba(9, 106, 46, 0.85);
+  font-family: 'Nunito';
+  font-weight: bolder;
+  margin: 0;
+  /* font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(243, 240, 237);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}

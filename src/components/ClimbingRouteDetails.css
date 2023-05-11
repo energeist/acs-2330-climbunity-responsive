@@ -1,0 +1,39 @@
+.ClimbingRouteDetails {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	width: 960px;
+	margin: auto;
+	padding: 1em;
+}
+
+@media only screen and (max-width: 950px) {
+	.ClimbingRouteDetails {
+		display: flex;
+		flex-direction: column-reverse;
+		max-width: fit-content;
+	}
+}
+
+.ClimbingRouteDetails .ClimbingRouteDetails-info {
+	flex: 1;
+	text-align: left;
+}
+
+.ClimbingRouteDetails .ClimbingRouteDetails-title {
+	font-size: 2em;
+	margin: 0;
+}
+
+.ClimbingRouteDetails .ClimbingRouteDetails-image {
+	flex: 2;
+}
+
+.ClimbingRouteDetails .ClimbingRouteDetails-image img {
+	width: 100%;
+	max-width: 620px;
+}
+
+.ClimbingRouteDetails .ClimbingRouteDetails-hours {
+	font-size: 1.5em;
+}
