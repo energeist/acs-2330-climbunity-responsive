@@ -12,7 +12,6 @@ function ClimbingWall(props) {
     return (
       <section 
         className="WallCard" key={wall.area_name.replaceAll(',','').replaceAll("'",'').split(' ').join('_').toLowerCase()} 
-        role="article"
       >
         <img src={`${process.env.PUBLIC_URL}/images/wall${wall.area_name.length%7}.jpg`} alt="outdoor climbing wall" />
         <section className="WallCardContent">
@@ -40,7 +39,7 @@ function ClimbingWall(props) {
           type="search"
         />
       </form>
-      <section className="WallList" role="list">
+      <section className="WallList">
         { walls.length < data.length && walls.length > 0 ? <p>Displaying {walls.length} of {data.length} walls: </p> : null }
         {walls.length > 0 ? walls : "No results match your terms - try filtering by wall name (e.g. 'Bruise Brothers Wall')"}
       </section>
